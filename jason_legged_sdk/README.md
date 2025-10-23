@@ -1,7 +1,14 @@
 # jason_sdk
 
-## Motor
-This SDK supports multiple motors(unitree: A1,B1,GO-M8010-6、xiaomi: CyberGear、RobStride: 03).
+This SDK supports multiple motors.
+
+Support List:
+
+|Brand|Type|
+|-|-|
+|Unitree|A1、B1、GO-M8010-6|
+|xiaomi|CyberGear|
+|RobStride|03|
 
 Add your "header files" under "include" or your "library files" under "lib".
 
@@ -9,7 +16,7 @@ Add your "header files" under "include" or your "library files" under "lib".
 The folder where your source files are places.
 
 ## Build
-`mkdir build && cd build`
+$ mkdir build && cd build
 
 $ cmake .. && make
 
