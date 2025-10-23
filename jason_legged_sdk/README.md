@@ -9,7 +9,7 @@ Add your "header files" under "include" or your "library files" under "lib".
 The folder where your source files are places.
 
 ## Build
-'mkdir build && cd build'
+`mkdir build && cd build`
 
 $ cmake .. && make
 
