@@ -6,9 +6,9 @@ Support List:
 
 |Brand|Type|Release|
 |-|-|-|
-|Unitree|A1、B1、GO-M8010-6||✅|
-|xiaomi|CyberGear||⚪|
-|RobStride|03||⚪|
+|Unitree|A1</br>B1</br>GO-M8010-6|✅</br>✅</br>✅|
+|xiaomi|CyberGear|⚪|
+|RobStride|03|⚪|
 
 > [!NOTE]
 > Add your "header files" under "include" or your "library files" under "lib".
