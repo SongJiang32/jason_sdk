@@ -7,7 +7,7 @@ Support List:
 |Brand|Type|Release|
 |-|-|-|
 |Unitree|A1</br>B1</br>GO-M8010-6|✅</br>✅</br>✅|
-|xiaomi|CyberGear|⚪|
+|xiaomi|CyberGear|coming soon|
 |RobStride|03|⚪|
 
 > [!NOTE]
@@ -21,6 +21,7 @@ The folder where your source files are places.
 ```
 mkdir build && cd build
 cmake .. && make
+'''
 
 ## Use
 $ sudo chmod +666 /dev/ttyUSB*
