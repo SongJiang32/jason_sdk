@@ -25,8 +25,8 @@ cmake .. && make
 ## Use
 
 ```
-$ sudo chmod +666 /dev/ttyUSB*
-$ sudo ./unitree_GO_M8010_6
+sudo chmod +666 /dev/ttyUSB*
+sudo ./unitree_GO_M8010_6
 ```
 
 ## Fireware & Configuration
@@ -39,5 +39,5 @@ The default kp,kd value is 0.02.
 Please read "legControl.h" in the corresponding path if you need to use motor.
 
 ```
-$ cat /jason_legged_sdk/include/unitree/legControl/legControl.h
+cat /jason_legged_sdk/include/unitree/legControl/legControl.h
 ```
