@@ -1,24 +1,26 @@
 # jason_sdk
 
-This SDK supports multiple motors.
+This Motor SDK supports multiple motors.
 
 Support List:
 
-|Brand|Type|
-|-|-|
-|Unitree|A1、B1、GO-M8010-6|
-|xiaomi|CyberGear|
-|RobStride|03|
+|Brand|Type|Release|
+|-|-|-|
+|Unitree|A1、B1、GO-M8010-6||✅|
+|xiaomi|CyberGear||⚪|
+|RobStride|03||⚪|
 
-Add your "header files" under "include" or your "library files" under "lib".
+> [!NOTE]
+> Add your "header files" under "include" or your "library files" under "lib".
 
 ## What is src?
 The folder where your source files are places.
 
 ## Build
-$ mkdir build && cd build
 
-$ cmake .. && make
+```
+mkdir build && cd build
+cmake .. && make
 
 ## Use
 $ sudo chmod +666 /dev/ttyUSB*
